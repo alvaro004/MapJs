@@ -34,15 +34,3 @@ marker.on('move', function (e) {
 	const { lat, lng } = data;
 	console.log(lat, lng);
 });
-
-// const getCountryData = function (country) {
-// 	// calling the promise - Country 1
-// 	getJSON(`https://restcountries.eu/rest/v2/name/${country}`, `Country not found`)
-// 		.then(([data]) => {
-// 			console.log(data);
-// 		})
-// 		.catch(err => {
-// 			console.error(`${err}, something went wrong`);
-// 			renderError(`Something went wrong ${err.message}, try again!`);
-// 		});
-// };

@@ -1,0 +1,22 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	width: 98%;
+	height: 98%;
+}
+#mapid {
+	width: 500px;
+	height: 500px;
+	/* border: 1px solid rgb(216, 13, 13); */
+	margin: 10px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.son {
+	/* border: 1px solid black; */
+	padding: 10px;
+	background: #ffffff;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}

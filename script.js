@@ -33,14 +33,14 @@ map.addLayer(marker);
 marker.on('moveend', function (e) {
 	const data = e.target._latlng;
 	const { lat, lng } = data;
-	console.log(lat, lng);
+	console.log(lat, lng, 'hola');
 	whereAmI(lat, lng);
 });
 
 const whereAmI = function (lat, lng) {
 	fetch(`https://geocode.xyz/${lat},${lng}?geoit=json`)
 		.then(response => {
-			//   console.log(response);
+			// console.log(response);
 			if (!response.ok) {
 				throw new Error(`this Api only admit 3 request per second!`);
 			}
